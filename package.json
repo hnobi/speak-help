@@ -1,0 +1,15 @@
+{
+  "name": "speaking-coach-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "cd apps/api && python3 -m uvicorn app.main:app --reload",
+    "dev:mobile": "cd apps/mobile && npx expo start",
+    "test:api": "cd apps/api && pytest -q",
+    "test:mobile": "cd apps/mobile && npx jest --runInBand",
+    "lint:api": "cd apps/api && python3 -m ruff check .",
+    "typecheck:mobile": "cd apps/mobile && npx tsc --noEmit"
+  }
+}

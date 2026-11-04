@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Speaking Coach",
+    "slug": "speaking-coach",
+    "scheme": "speakingcoach",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-router"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.speakingcoach"
+    },
+    "android": {
+      "package": "com.example.speakingcoach"
+    }
+  }
+}

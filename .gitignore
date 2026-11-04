@@ -1,0 +1,17 @@
+node_modules/
+.expo/
+.next/
+.env
+.env.local
+.pytest_cache/
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
+.venv/
+apps/api/.venv/
+apps/api/.coverage
+apps/mobile/.expo/
+apps/mobile/.expo-shared/
+apps/mobile/dist/
+apps/mobile/.cache/
